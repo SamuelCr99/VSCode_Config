@@ -1,0 +1,79 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "editor.rulers": [
+    80
+  ],
+  "vim.useSystemClipboard": true,
+  "vim.smartRelativeLine": true,
+  "cSpell.language": "en,sv",
+  "file.associations": {
+    "*.tex": "latex"
+  },
+  "[latex]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 75,
+    "editor.rulers": [
+      75
+    ]
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#0e916c"
+  },
+  "python.analysis.completeFunctionParens": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "u"
+      ],
+      "commands": [
+        "undo"
+      ]
+    },
+    {
+      "before": [
+        "<C-r>"
+      ],
+      "commands": [
+        "redo"
+      ]
+    }
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "liveServer.settings.donotVerifyTags": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnType": true,
+    // "editor.formatOnSave": true,
+    // "editor.formatOnType": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true,
+  "git.openRepositoryInParentFolders": "always", 
+  "cSpell.userWords": [
+    "pygame"
+  ],
+  "svelte.enable-ts-plugin": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  }
+}
